@@ -8,3 +8,63 @@ body,
 html {
   height: 100%;
 }
+
+
+.legend {
+  padding-top: 0px;
+  padding-right: 7px;
+  padding-bottom: 0px;
+  padding-left: 7px; 
+  /* font-family: Sanchez, serif; */
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 10px;
+  color: #555;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend .layer6 {
+  background-color: #FF5F65;
+  color: white;
+  padding: 8px;
+  margin-top: -20px;
+}
+
+.legend .layer5 {
+  background-color: #FCA35D;
+  color: white;
+  padding: 8px;
+  margin-top: -20px;
+  /* margin-bottom: 10px; */
+}
+
+.legend .layer4 {
+  background-color: #FDB72A;
+  color: white;
+  padding: 8px;
+  margin-top: -20px;
+}
+
+.legend .layer3 {
+  background-color: #F7DB11;
+  color: black;
+  padding: 8px;
+  margin-top: -20px;
+}
+
+.legend .layer2 {
+  background-color: #DCF400;
+  color: black;
+  padding: 8px;
+  margin-top: -20px;
+}
+
+.legend .layer1 {
+  background-color: #A3F600;
+  color: black;
+  padding: 8px;
+  margin-top: -5px;
+}
