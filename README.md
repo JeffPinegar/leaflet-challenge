@@ -2,7 +2,7 @@
 jeffpinegar1@gmail.com <br>
 717-982-0516
 <br><br>
-Module 15 Leaflet-Challenge
+Module 15: Leaflet-Challenge
 <hr>
 <h1> Overview</h1>
 Files contain in Leaflet-Part-1 and Leaflet-Part-2 are very similar.  They have the same file names.  Both solutions permit the selection of one of the same 6 base layers.  Both solutions include the overlay with “bubbles” proportional to the magnitude of the earthquake and color indicating the depth. The hover text includes the location, date, magnitude, and depth.
