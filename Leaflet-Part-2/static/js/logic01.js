@@ -75,13 +75,15 @@ d3.json(queryUrl).then(function(data) {
 
   // ------------------------ End information for Legend -----------------------------------------------------
 
+
+  // --------------------------- Build overlays ---------------------------------------------------------------
   // Build feature layer #1
   d3.json(quaryURL2).then(function(data) {
     // Creating a GeoJSON layer with the retrieved data
     L.geoJson(data).addTo(layers.Plates);
 
 
-    // Bild feature lay #2
+    // Biuld feature lay #2
     // Argument 1 = featureData - the data source for the feature
     featureOverlay2 = layers.Bubbles;
     // Argument 2 = layer name - the name of the layer that will be build inside the function.  It is needed in this beasue
@@ -100,6 +102,7 @@ d3.json(queryUrl).then(function(data) {
 
   // ---------------------------- update legend function -----------------------------------------------------------
   function updateLegend() {
+    // the formating for this legend is done in the CSS file.  Only the text is here.
     document.querySelector('.legend').innerHTML = [
       '<p class=\'LegendTitle\'> Depth [km]</p>',
       '<p class=\'layer1\'>Less than 10</p>',
